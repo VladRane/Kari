@@ -1,0 +1,58 @@
+{% extends 'main/layout.html' %}
+{% block title %}Главная страница{% endblock %}
+{% load static %}
+
+{% block content %}
+    <div class="features_news">
+        <h1>Книги</h1>
+    </div>
+
+<div class="perv-lin">
+    <div class="tovar-card">
+        <img src="{% static 'main/img/img.webp' %}" alt="tovar 1">
+        <h5>Шепчущие никелевые идолы. Жестокие цинковые мелодии</h5>
+        <p class="price">963р</p>
+        <a href="#" class="buy-btn">Купить</a>
+    </div>
+
+    <div class="tovar-card">
+        <img src="{% static 'main/img/img_1.webp' %}" alt="tovar 2">
+        <h5>Возвращение Черного Отряда. Суровые времена. Тьма</h5>
+        <p class="price">965р</p>
+        <a href="#" class="buy-btn">Купить</a>
+    </div>
+
+    <div class="tovar-card">
+        <img src="{% static 'main/img/img_2.webp' %}" alt="tovar 3">
+        <h5>Дракон не спит никогда</h5>
+        <p class="price">483р</p>
+        <a href="#" class="buy-btn">Купить</a>
+    </div>
+</div>
+
+<div class="vtor-lin">
+    <div class="tovar-card">
+        <img src="{% static 'main/img/img_3.webp' %}" alt="tovar 4">
+        <h5>Жар сумрачной стали. Злобные чугунные небеса</h5>
+        <p class="price">299р</p>
+        <a href="#" class="buy-btn">Купить</a>
+    </div>
+
+    <div class="tovar-card">
+        <img src="{% static 'main/img/img_4.webp' %}" alt="tovar 5">
+        <h5>Седая оловянная печаль. Зловещие латунные тени. Ночи кровавого железа</h5>
+        <p class="price">764р</p>
+        <a href="#" class="buy-btn">Купить</a>
+    </div>
+
+    <div class="tovar-card">
+        <img src="{% static 'main/img/img_5.webp' %}" alt="tovar 6">
+        <h5>Сладкозвучный серебряный блюз. Золотые сердца с червоточинкой. Холодные медные слезы</h5>
+        <p class="price">764р</p>
+        <a href="#" class="buy-btn">Купить</a>
+    </div>
+</div>
+{% endblock %}
+
+
+
